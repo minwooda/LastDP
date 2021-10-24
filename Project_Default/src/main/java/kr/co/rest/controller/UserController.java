@@ -24,6 +24,10 @@ public class UserController {
 		return "User/Join";
 	}
 	
+	@RequestMapping(value = "jusoPopup.do")
+	public String Juso() {
+		return "User/jusoPopup";
+	}
 	
 	
 	

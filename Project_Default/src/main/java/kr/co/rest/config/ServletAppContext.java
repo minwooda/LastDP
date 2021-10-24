@@ -23,8 +23,8 @@ import kr.co.rest.beans.UserBean;
 // Annotation사용할수 있게 설정
 @EnableWebMvc
 @ComponentScan(basePackages = "kr.co.rest.controller")
-@ComponentScan("kr.co.softsoldesk.dao")
-@ComponentScan("kr.co.softsoldesk.service")
+@ComponentScan("kr.co.rest.dao")
+@ComponentScan("kr.co.rest.service")
 @PropertySource("/WEB-INF/properties/DB.properties")
 public class ServletAppContext implements WebMvcConfigurer{
 	
@@ -83,5 +83,6 @@ public class ServletAppContext implements WebMvcConfigurer{
 		
 		return factory;
 	}
+	
 		
 }

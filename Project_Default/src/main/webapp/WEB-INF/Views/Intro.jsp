@@ -36,7 +36,7 @@
 * License: https://bootstrapmade.com/license/
 ======================================================== -->
 <body>
-
+	<c:import url="/WEB-INF/Views/Include/Top.jsp" />
 	<section id="hero">
 		<div id="heroCarousel" data-bs-interval="3000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 			<ol class="carousel-indicators" id="hero-carousel-indicators">
